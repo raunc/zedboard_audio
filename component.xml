@@ -2,7 +2,7 @@
 <spirit:component xmlns:xilinx="http://www.xilinx.com" xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <spirit:vendor>user.org</spirit:vendor>
   <spirit:library>user</spirit:library>
-  <spirit:name>zed_audio</spirit:name>
+  <spirit:name>zedboard_audio</spirit:name>
   <spirit:version>1.0</spirit:version>
   <spirit:model>
     <spirit:views>
@@ -379,14 +379,14 @@
     <spirit:fileSet>
       <spirit:name>xilinx_xpgui_view_fileset</spirit:name>
       <spirit:file>
-        <spirit:name>xgui/zed_audio_v1_0.tcl</spirit:name>
+        <spirit:name>xgui/zedboard_audio_v1_0.tcl</spirit:name>
         <spirit:fileType>tclSource</spirit:fileType>
         <spirit:userFileType>XGUI_VERSION_2</spirit:userFileType>
         <spirit:userFileType>CHECKSUM_f92e9879</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
   </spirit:fileSets>
-  <spirit:description>zed_audio_v1_0</spirit:description>
+  <spirit:description>zedboard_audio_v1_0</spirit:description>
   <spirit:parameters>
     <spirit:parameter>
       <spirit:name>Component_Name</spirit:name>
@@ -401,16 +401,16 @@
       <xilinx:taxonomies>
         <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
       </xilinx:taxonomies>
-      <xilinx:displayName>zed_audio_v1_0</xilinx:displayName>
+      <xilinx:displayName>zedboard_audio_v1_0</xilinx:displayName>
       <xilinx:coreRevision>1</xilinx:coreRevision>
       <xilinx:upgrades>
         <xilinx:canUpgradeFrom>user.org:user:audio_testbench:1.0</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2016-04-20T10:53:16Z</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2016-05-25T08:27:58Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
-        <xilinx:tag xilinx:name="user.org:user:audio_testbench:1.0_ARCHIVE_LOCATION">/home/INTRA/rauno.padari/workspace/audio-mixer/ip_repo/zedboard_audio</xilinx:tag>
-        <xilinx:tag xilinx:name="user.org:user:zed_audio:1.0_ARCHIVE_LOCATION">/home/INTRA/rauno.padari/workspace/audio-mixer/ip_repo/zedboard_audio</xilinx:tag>
+        <xilinx:tag xilinx:name="user.org:user:audio_testbench:1.0_ARCHIVE_LOCATION">/home/INTRA/rauno.padari/workspace/soc-audio-mixer/ip_repo/zedboard_audio</xilinx:tag>
+        <xilinx:tag xilinx:name="user.org:user:zedboard_audio:1.0_ARCHIVE_LOCATION">/home/INTRA/rauno.padari/workspace/soc-audio-mixer/ip_repo/zedboard_audio</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
